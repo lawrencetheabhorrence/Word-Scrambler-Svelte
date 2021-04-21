@@ -1,5 +1,16 @@
+@font-face{
+	font-family: "Lemon/Milk";
+	src: url("fonts/lemon/lemonmilk-webfont.ttf") format("truetype");
+}
+
+@font-face{
+	font-family: "Assembled From Scratch";
+	src: url("fonts/assembled/assembled_from_scratch-webfont.ttf") format("truetype");
+}
+
 html, body {
-	position: relative;
+	position: absolute;
+	margin: 0;
 	width: 100%;
 	height: 100%;
 }
