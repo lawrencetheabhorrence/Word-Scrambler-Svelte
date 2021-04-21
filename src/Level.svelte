@@ -3,7 +3,7 @@
   import data from './gamedata.js'
   import { replace } from 'svelte-spa-router'
 
-  export let params = {};
+  export let params = {}; // the router takes params from the url into this object
   const lvl = params.level;
   const lvlData = data.loadLevel(lvl);
   const word = data.getAvails(lvl);
@@ -33,6 +33,9 @@
   function check() {
     if (validWords.includes(currentWord)) {
       if (!usedWords.includes(currentWord)) {
+				// replace moves to the desired url only on the next tick of the event loop
+				// so without putting it in a setTimeout to force it, nothing will happen initially
+				// if the user wins or loses the level
 				if (score === validWords.length - 1) { setTimeout(() => replace(`/win/${parseInt(lvl) + 1}`), 0); }
 				else { score++; usedWords = usedWords.concat(currentWord) }
 			}
