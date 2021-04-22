@@ -12,7 +12,7 @@ body{
 h1{
   font-family: "Assembled From Scratch", sans-serif;
   color: white;
-  padding: 15px;
+  padding: 0.5em;
   margin: auto;
   margin-top: 50px;
   width: 10em;
@@ -20,6 +20,7 @@ h1{
   border: 10px solid white;
   text-align: center;
   overflow: hidden;
+  word-wrap: break-word;
 }
 
 h2{
@@ -28,10 +29,11 @@ h2{
   color: rgb(232, 92, 54);
   width: 24em;
   font-size: 3em;
-  padding: 10px;
+  padding: 0.3em;
   margin: auto;
-  margin-top: 10px;
+  margin-top: 0.3em;
   text-align: center;
+  word-wrap: break-word;
 }
 
 a{

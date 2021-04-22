@@ -62,8 +62,6 @@
     {/each}
   </div>
 
-  <button id="levelButton" style="display: none; margin-top: 1em;">Next!</button>
-
   <div style="text-align: center;" id="buttons">
     <button on:click={scramble}>Scramble!</button>
     <button on:click={reset}>Clear!</button>
@@ -86,8 +84,8 @@ h1{
 	background-color: rgb(51, 63, 80);
 	box-shadow: 0px 10px rgba(0, 0, 0, 0.65);
 	text-align: center;
-	padding-bottom: 15px;
-	padding-top: 50px;
+	padding-bottom: 0.5em;
+	padding-top: 1.5em;
 	margin: auto;
 	font-family: "Assembled From Scratch", sans-serif;
 }
@@ -102,11 +100,11 @@ input{
 	height: 1.3em;
 	text-align: center;
 	color: white;
-	padding: 7px;
+	padding: 0.4em;
 	background-color: rgb(84, 130, 53);
 	box-shadow: 0px 10px rgba(0, 0, 0, 0.65);
-	margin: 15px;
-	margin-top :30px;
+	margin: 0.5em;
+	margin-top :1em;
 	position: relative;
 	bottom: 0;
 	transition: background-color 0.1s, box-shadow 0.1s, width 0.1s, bottom 0.1s;
@@ -123,7 +121,7 @@ button{
 	color: white;
 	font-family: "Lemon/Milk", sans-serif;
 	margin: 0.5em;
-	padding: 5px 50px;
+	padding: 0.1em 1.3em;
 	background-color: rgb(232, 92, 54);
 	box-shadow: 0px 10px rgba(0, 0, 0, 0.65);
 	border: 0px;
