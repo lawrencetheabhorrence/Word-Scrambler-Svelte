@@ -49,7 +49,7 @@
 
 <body>
   <header>
-    <p><span style="font-size: 2em; position: relative; bottom: 0.18em;">{lvl} !</span></p>
+    <p><span style="font-size: clamp(12px, 10vw, 25px); position: relative; bottom: 0.18em;">{lvl} !</span></p>
     <div style="text-align: center;"><p id="counter" style="display: inline-block;"> {score} / {validWords.length} Words</p></div>
     <p id="lives">Lives: {lives}</p>
   </header>

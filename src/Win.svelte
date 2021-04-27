@@ -24,19 +24,21 @@ body{
 	color: white;
 	font-family: "Lemon/Milk", sans-serif;
 	text-align: center;
-	margin: auto;
-	height: 100%;
+	display:flex;
+	flex-direction: column;
+	align-items: center;
+	justify-items:center;
 }
 
 h1{
-	font-size: 10em;
+	font-size: calc(40px + (200 - 40) *  ((100vw - 300px)/(1600 - 300)));
 	margin-top: 1em;
 	margin-bottom: 0;
 }
 
 h2{
-	font-size: 2em;
-	margin-top: 0.3em;
+	font-size: calc(16px + (50 - 16) * ((100vw - 300px)/(1600 - 300)));
+	margin-top: 0.1em;
 	letter-spacing: 2px;
 }
 
