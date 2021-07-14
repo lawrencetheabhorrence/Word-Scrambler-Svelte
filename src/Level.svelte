@@ -19,7 +19,7 @@
     function addLetter(letter) {
         currentWord = currentWord.concat(letter);
         avails = avails.split('').filter(l => l != letter).join('');
-      }
+    }
 
     function reset(){
         currentWord = "";
