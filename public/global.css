@@ -8,17 +8,10 @@
 	src: url("fonts/assembled/assembled_from_scratch-webfont.ttf") format("truetype");
 }
 
-html, body {
-	position: absolute;
-	margin: 0;
-	width: 100%;
-	height: 100%;
-}
-
-body {
-	color: #333;
-	margin: 0;
-	padding: 8px;
+body, html {
+  margin: 0;
+  height: 100vh;
+  width: 100vw;
 }
 
 a {

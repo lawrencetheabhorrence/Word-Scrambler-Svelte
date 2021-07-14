@@ -23,13 +23,13 @@ body{
 }
 
 h1{
-	font-size: calc(40px + (200 - 40) *  ((100vw - 300px)/(1600 - 300)));
+  font-size: clamp(2em, 10vw + 1em, 10em);
 	margin-top: 1em;
 	margin-bottom: 0;
 }
 
 h2{
-	font-size: calc(40px + (200 - 40) *  ((100vw - 300px)/(1600 - 300)));
+	font-size: clamp(1em, 5vw + 1em, 5em);
 	margin-top: 0.3em;
 	letter-spacing: 2px;
 }

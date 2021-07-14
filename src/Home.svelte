@@ -6,7 +6,6 @@
 
 body{
   background-color: rgb(232, 92, 54);
-  height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,7 +18,7 @@ h1{
   padding: 0.5em;
   margin-top: 50px;
   width: 70vw;
-  font-size: calc(32px + (100 - 25) * ((100vw - 300px) / (1600 - 300)));
+  font-size: calc(28px + (100 - 25) * ((100vw - 300px) / (1600 - 300)));
   border: 10px solid white;
   text-align: center;
   word-wrap: break-word;
